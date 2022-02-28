@@ -1,4 +1,3 @@
-from pdb import post_mortem
 from django.shortcuts import render, get_object_or_404
 from post .models import Post
 from likes .permission import  hasSelfLikesOrReadOnly
